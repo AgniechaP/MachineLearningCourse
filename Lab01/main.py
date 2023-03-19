@@ -3,6 +3,8 @@ from sklearn import datasets
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import fetch_olivetti_faces
+from sklearn.datasets import make_classification
+import pandas as pd
 
 digits = datasets.load_digits()
 print(digits)
@@ -50,4 +52,37 @@ for class_f in range(len(np.unique(y_faces_test))//5):
         i += 1
         axs_f[class_f][col_f].axis('off')
 plt.show()
+
+# 5. Different database
+from sklearn.datasets import load_iris
+iris = load_iris()
+print('Database iris keys: ', iris.keys())
+print('Target names: \n')
+print(list(iris['target_names']))
+
+X_iris, y_iris = iris['data'], iris['target']
+X_iris_train, X_iris_test, y_iris_train, y_iris_test = train_test_split(X_iris, y_iris, test_size=0.20, random_state=42, stratify=y_iris)
+print(f'Iris train database: {len(X_train)}')
+
+# 6. Make_classification
+# Binary classification dataset - labels with only 2 possible values 0/1, so we should set n_classes to 2
+# Create dataset with 1000 observations, 5 features out of which 3 will be informative and 2 redundant
+X_new, y_new = make_classification(
+    n_samples=1000, # 1000 observations
+    n_features=5, # 5 total features
+    n_informative=3, # 3 'useful' features
+    n_classes=2, # binary target/label
+    random_state=999
+)
+# Convert output of make_classification() into a pandas DataFrame (it's easier than NumPy arrays)
+# Create DataFrame with features as columns
+dataset_new = pd.DataFrame(X_new)
+# Give names to the features
+dataset_new.columns = ['X1', 'X2', 'X3', 'X4', 'X5']
+# Add the label as a column - without this line we will only have X1 - X5 columns
+dataset_new['y_new'] = y_new
+# Plot results
+dataset_new.info()
+
+# 7.
 
