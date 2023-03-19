@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.datasets import fetch_olivetti_faces
 from sklearn.datasets import make_classification
 import pandas as pd
+from sklearn.datasets import fetch_openml
 
 digits = datasets.load_digits()
 print(digits)
@@ -79,10 +80,12 @@ X_new, y_new = make_classification(
 dataset_new = pd.DataFrame(X_new)
 # Give names to the features
 dataset_new.columns = ['X1', 'X2', 'X3', 'X4', 'X5']
-# Add the label as a column - without this line we will only have X1 - X5 columns
+# Add the label as a column - without this miceline we will only have X1 - X5 columns
 dataset_new['y_new'] = y_new
-# Plot results
+# Plot resultsmice
 dataset_new.info()
 
-# 7.
-
+# 7. download open database
+miceprotein = fetch_openml(version='active', data_id=40966, parser='auto')
+print('miceprotein datashape: ', miceprotein.data.shape)
+print('mice url: ', miceprotein.url)
