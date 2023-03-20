@@ -8,7 +8,9 @@ import pandas as pd
 from sklearn.datasets import fetch_openml
 from sklearn import svm
 from sklearn.metrics import confusion_matrix, classification_report
-
+from sklearn.tree import DecisionTreeClassifier, plot_tree
+from sklearn.metrics import ConfusionMatrixDisplay
+from sklearn import metrics
 
 # 1. klasyfikator SVC na bazie TODO2 z Lab01
 # Wyswietlic po kilka elementow z kazdej z dostepnych klas
@@ -63,3 +65,22 @@ print(y_pred_car)
 print('Score cars: ', svc_car.score(X_car_test, y_car_test))
 # Dla testowego obliczylam predykcje, dlatego jako wartosc prawdziwa w confusion matrix podaje zbior testowy y
 print(f'confusion_matrix: \n{confusion_matrix(y_car_test, y_pred_car)}')
+
+# 4. Confusion matrix
+clf = DecisionTreeClassifier()
+clf.fit(X_train, y_train)
+# y_predicted
+prediction = clf.predict(X_test)
+conf_matrix = confusion_matrix(y_test, prediction)
+print(f'confusion_matrix digits: \n{confusion_matrix(y_test, prediction)}')
+ConfusionMatrixDisplay.from_predictions(y_test, prediction)
+plt.show()
+
+for input, pred, label in zip(X_test, prediction, y_test):
+  if pred != label:
+          if label == 8 or label == 3:
+                print(input, 'has been classified as ', pred, 'and should be ', label)
+
+# Mean squared error
+mse = metrics.mean_squared_error(y_test, prediction)
+print('Mean squared error: ', mse)

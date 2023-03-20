@@ -6,6 +6,7 @@ import numpy as np
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 import pandas as pd
+from sklearn import metrics
 
 # Downloaded training_data.txt has a csv format
 # Load file - original file is without header, so we added 'charging' and 'watching'
@@ -13,10 +14,10 @@ df = pd.read_csv('./../data/training_data.txt')
 print(df)
 
 # Scatter plot - plot with one dot for each observaion. X and y must be the same leghth
-plt.scatter(df['charging'], df['watching'])
-plt.xlabel('Charging')
-plt.ylabel('Watching')
-plt.show()
+# plt.scatter(df['charging'], df['watching'])
+# plt.xlabel('Charging')
+# plt.ylabel('Watching')
+# plt.show()
 
 
 # x-array - data taht we will use to make predictions - 'charging'
@@ -47,4 +48,16 @@ model.fit(X_train, y_train)
 # Making predictions from our model, predict accepts x-array parameter and genetartes y values
 predictions = model.predict(X_test)
 
-# TODO metrics mean square error 
+# Plot real watching to predicted watching
+plt.scatter(y_test, predictions)
+plt.xlabel('Real')
+plt.ylabel('Predicted')
+plt.show()
+
+plt.hist(y_test - predictions)
+plt.show()
+
+# metrics - mean squared error
+mse = metrics.mean_squared_error(y_test, predictions)
+print('Mean squared error: ', mse)
+# hiperparametry co to + co jestesmy w stanie zrobic zeby poprawic wyniki
