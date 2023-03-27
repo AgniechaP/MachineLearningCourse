@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.datasets import fetch_olivetti_faces
 from sklearn.datasets import make_classification
 import pandas as pd
+from sklearn import svm
 from sklearn.datasets import fetch_openml
 from sklearn.datasets import load_iris
 from sklearn import preprocessing
@@ -51,4 +52,16 @@ plt.xlabel('sepal length (cm) - standard scaled')
 plt.ylabel('sepal width (cm) - standard scaled')
 plt.show()
 
-# Pipelines i szeregowe łączenie modeli
+# 7. Pipelines i szeregowe łączenie modeli
+# importing pipes for making the Pipe flow
+from sklearn.pipeline import Pipeline
+pipe = Pipeline(
+        [
+            ('min_max_scaler', preprocessing.MinMaxScaler()),
+            ('clf_svm', svm.SVC(random_state=42, kernel='rbf', probability=True))
+        ]
+    )
+pipe.fit(X_train, y_train)
+y_pipe_pred = pipe.predict(X_test)
+acc = pipe.score(X_test, y_test)
+print(f'ACC: {acc}')

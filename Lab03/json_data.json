@@ -1,0 +1,1 @@
+"{\"accuracy\": [{\"Method\": \"SVC\", \"Score\": 0.7333333333333333}, {\"Method\": \"LogisticRegression\", \"Score\": 0.7333333333333333}, {\"Method\": \"DecisionTree\", \"Score\": 0.6}, {\"Method\": \"RandomForest\", \"Score\": 0.6666666666666666}]}"
