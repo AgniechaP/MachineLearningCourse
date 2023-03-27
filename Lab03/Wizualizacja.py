@@ -24,6 +24,7 @@ min_max_scaler.fit(X_train)
 X_train_scaled = min_max_scaler.transform(X_train)
 X_test_scaled = min_max_scaler.transform(X_test)
 
+# 10.
 # Training a classifier
 # SVC method
 clf_svm = svm.SVC(random_state=42, kernel='rbf', probability=True)
@@ -51,7 +52,6 @@ randomTree = RandomForestClassifier()
 randomTree = randomTree.fit(X_train_scaled, y_train)
 y_pred_rdm_tree = randomTree.predict(X_test)
 rdm_tree_acc = randomTree.score(X_test_scaled, y_test)
-
 
 # Save accuracy of classifiers in dictionary
 print(f'svm_acc: {svm_acc}\n Logistic Regression acc: {log_regr_acc}\n dec tree acc: {dec_tree_acc}\n Random forest acc: {rdm_tree_acc}')
@@ -84,8 +84,34 @@ print(json_string)
 with open('json_data.json', 'w') as outfile:
     json.dump(json_string, outfile)
 
-# Plot results - decision regions
+# 11. Plot results - decision regions
+# Plot SVC
 plt.figure()
 plot_decision_regions(X_test_scaled, y_test, clf=clf_svm, legend=2)
+plt.title('Regiony decyzyjne - SVC')
 plt.figure()
 plt.show()
+
+# Plot Logistic Regression
+plt.figure()
+plot_decision_regions(X_test_scaled, y_test, clf=logisticRegr, legend=2)
+plt.title('Regiony decyzyjne - Logistic Regression')
+plt.figure()
+plt.show()
+
+# Plot DecisionTree
+plt.figure()
+plot_decision_regions(X_test_scaled, y_test, clf=decisionTree, legend=2)
+plt.title('Regiony decyzyjne - Decision Tree')
+plt.figure()
+plt.show()
+
+# Plot Random forest
+plt.figure()
+plot_decision_regions(X_test_scaled, y_test, clf=randomTree, legend=2)
+plt.title('Regiony decyzyjne - Random Forest')
+plt.figure()
+plt.show()
+
+# 12.
+# http://rasbt.github.io/mlxtend/user_guide/feature_selection/ExhaustiveFeatureSelector/
