@@ -8,6 +8,9 @@ from sklearn import tree
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import StandardScaler
+import pandas as pd
+import seaborn as sns
+
 
 # Zaladuj baze iris
 dataset = datasets.load_iris()
@@ -32,3 +35,29 @@ pipe = Pipeline(steps=[('std_slc', std_slc),
 # StandardScaler doesnot requires any parameters to be optimised by GridSearchCV.
 # Principal Component Analysis requires a parameter 'n_components' to be optimised. 'n_components' signifies the number of components to keep after reducing the dimension.
 # DecisionTreeClassifier requires two parameters 'criterion' and 'max_depth' to be optimised by GridSearchCV
+# DecisionTreeClassifier -  set these two parameters as a list of values form which GridSearchCV will select the best value of parameter.
+
+n_components = list(range(1,X.shape[1]+1,1))
+criterion = ['gini', 'entropy']
+max_depth = [2,4,6,8,10,12]
+
+# Now we are creating a dictionary to set all the parameters options for different objects.
+parameters = dict(pca__n_components=n_components, dec_tree__criterion=criterion, dec_tree__max_depth=max_depth)
+
+#Making an object clf_GS for GridSearchCV and fitting the dataset i.e X and y
+clf_GS = GridSearchCV(pipe, parameters)
+clf_GS.fit(X, y)
+
+print('Best Criterion:', clf_GS.best_estimator_.get_params()['dec_tree__criterion'])
+print('Best max_depth:', clf_GS.best_estimator_.get_params()['dec_tree__max_depth'])
+print('Best Number Of Components:', clf_GS.best_estimator_.get_params()['pca__n_components'])
+print(); print(clf_GS.best_estimator_.get_params()['dec_tree'])
+
+# 8. Dodaj opcję zapisywania najlepszego modelu dla zadania związanego z grid search.
+import pickle
+filename = 'finalized_model.sav'
+
+pickle.dump(clf_GS.best_estimator_, open(filename, 'wb'))
+clf = pickle.load(open(filename, 'rb')) # DO wczytania
+result = clf.score(X, y)
+print('result of estimation best params:', result)
