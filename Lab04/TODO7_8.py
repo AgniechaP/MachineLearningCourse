@@ -8,14 +8,15 @@ from sklearn import tree
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import StandardScaler
-import pandas as pd
-import seaborn as sns
+from sklearn.model_selection import train_test_split
 
 
 # Zaladuj baze iris
 dataset = datasets.load_iris()
 X = dataset.data
 y = dataset.target
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Standard scaler - to remove outliers and scale the data by making the mean of data 0 and standard deviation as 1. We are creating object std_scl to use StandardScaler
 std_slc = StandardScaler()
@@ -46,7 +47,7 @@ parameters = dict(pca__n_components=n_components, dec_tree__criterion=criterion,
 
 #Making an object clf_GS for GridSearchCV and fitting the dataset i.e X and y
 clf_GS = GridSearchCV(pipe, parameters)
-clf_GS.fit(X, y)
+clf_GS.fit(X_train, y_train)
 
 print('Best Criterion:', clf_GS.best_estimator_.get_params()['dec_tree__criterion'])
 print('Best max_depth:', clf_GS.best_estimator_.get_params()['dec_tree__max_depth'])
