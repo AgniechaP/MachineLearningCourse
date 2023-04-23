@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/0/264c5b65fff14c51b2e558d19f0a8045/artifacts
+end_time: 1682251137619
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 264c5b65fff14c51b2e558d19f0a8045
+run_name: omniscient-cod-895
+run_uuid: 264c5b65fff14c51b2e558d19f0a8045
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682251134952
+status: 3
+tags: []
+user_id: agnieszka

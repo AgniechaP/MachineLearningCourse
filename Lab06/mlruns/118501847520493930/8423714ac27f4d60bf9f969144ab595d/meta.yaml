@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/8423714ac27f4d60bf9f969144ab595d/artifacts
+end_time: 1682266126658
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 8423714ac27f4d60bf9f969144ab595d
+run_name: efficient-bug-730
+run_uuid: 8423714ac27f4d60bf9f969144ab595d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682266123691
+status: 3
+tags: []
+user_id: agnieszka

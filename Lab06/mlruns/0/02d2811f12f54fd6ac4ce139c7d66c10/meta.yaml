@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/0/02d2811f12f54fd6ac4ce139c7d66c10/artifacts
+end_time: 1682257722365
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 02d2811f12f54fd6ac4ce139c7d66c10
+run_name: big-sloth-303
+run_uuid: 02d2811f12f54fd6ac4ce139c7d66c10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682257722354
+status: 3
+tags: []
+user_id: agnieszka

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/0/f2ab0e27122f470b8367dc15d7c213a9/artifacts
+end_time: 1682249850985
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f2ab0e27122f470b8367dc15d7c213a9
+run_name: auspicious-cod-234
+run_uuid: f2ab0e27122f470b8367dc15d7c213a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682249848315
+status: 3
+tags: []
+user_id: agnieszka
