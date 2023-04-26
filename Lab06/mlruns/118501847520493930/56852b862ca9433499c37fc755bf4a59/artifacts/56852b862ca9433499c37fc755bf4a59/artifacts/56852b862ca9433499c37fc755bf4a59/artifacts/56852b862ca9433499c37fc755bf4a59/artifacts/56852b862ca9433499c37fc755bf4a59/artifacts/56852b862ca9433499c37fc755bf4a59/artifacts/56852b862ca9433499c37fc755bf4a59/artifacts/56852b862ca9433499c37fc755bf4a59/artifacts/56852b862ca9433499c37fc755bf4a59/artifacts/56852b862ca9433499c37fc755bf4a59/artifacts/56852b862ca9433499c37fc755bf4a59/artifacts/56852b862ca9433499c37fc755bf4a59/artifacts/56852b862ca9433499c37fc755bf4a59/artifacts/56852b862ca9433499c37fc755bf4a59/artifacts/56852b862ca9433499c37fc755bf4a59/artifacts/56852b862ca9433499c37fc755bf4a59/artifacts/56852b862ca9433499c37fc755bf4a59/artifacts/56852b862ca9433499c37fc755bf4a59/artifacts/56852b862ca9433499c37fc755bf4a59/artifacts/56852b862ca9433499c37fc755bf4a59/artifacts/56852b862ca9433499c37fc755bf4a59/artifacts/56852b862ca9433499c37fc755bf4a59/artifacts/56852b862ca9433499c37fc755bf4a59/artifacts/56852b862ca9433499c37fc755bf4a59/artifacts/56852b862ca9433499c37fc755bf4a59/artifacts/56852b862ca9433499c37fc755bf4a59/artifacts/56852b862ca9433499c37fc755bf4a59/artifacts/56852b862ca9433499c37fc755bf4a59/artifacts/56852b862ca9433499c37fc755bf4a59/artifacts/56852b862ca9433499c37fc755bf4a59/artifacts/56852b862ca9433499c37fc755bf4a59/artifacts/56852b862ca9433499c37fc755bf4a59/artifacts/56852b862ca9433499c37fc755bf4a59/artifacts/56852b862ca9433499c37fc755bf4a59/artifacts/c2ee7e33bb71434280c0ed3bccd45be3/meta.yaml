@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/c2ee7e33bb71434280c0ed3bccd45be3/artifacts
+end_time: 1682264755244
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: c2ee7e33bb71434280c0ed3bccd45be3
+run_name: invincible-wolf-844
+run_uuid: c2ee7e33bb71434280c0ed3bccd45be3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682264752524
+status: 3
+tags: []
+user_id: agnieszka

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/96f2408cdb8142f886aa77b72be59b01/artifacts
+end_time: 1682347163001
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 96f2408cdb8142f886aa77b72be59b01
+run_name: thundering-hare-98
+run_uuid: 96f2408cdb8142f886aa77b72be59b01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682347162144
+status: 3
+tags: []
+user_id: agnieszka

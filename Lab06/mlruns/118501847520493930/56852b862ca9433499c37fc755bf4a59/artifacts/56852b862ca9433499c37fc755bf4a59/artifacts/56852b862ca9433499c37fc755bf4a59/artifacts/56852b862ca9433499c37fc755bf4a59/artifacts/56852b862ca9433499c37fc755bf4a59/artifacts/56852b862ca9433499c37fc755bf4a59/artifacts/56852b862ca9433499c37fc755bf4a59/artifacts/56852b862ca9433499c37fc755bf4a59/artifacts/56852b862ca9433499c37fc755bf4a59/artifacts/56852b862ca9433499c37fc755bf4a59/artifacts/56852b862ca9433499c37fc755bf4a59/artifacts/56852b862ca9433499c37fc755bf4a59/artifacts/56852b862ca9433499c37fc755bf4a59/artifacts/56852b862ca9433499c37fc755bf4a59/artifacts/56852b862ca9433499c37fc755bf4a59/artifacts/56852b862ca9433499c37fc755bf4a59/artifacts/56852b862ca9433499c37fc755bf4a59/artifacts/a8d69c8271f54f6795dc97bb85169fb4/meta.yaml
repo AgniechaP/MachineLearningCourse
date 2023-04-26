@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/a8d69c8271f54f6795dc97bb85169fb4/artifacts
+end_time: 1682266781703
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: a8d69c8271f54f6795dc97bb85169fb4
+run_name: adaptable-moth-671
+run_uuid: a8d69c8271f54f6795dc97bb85169fb4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682266778956
+status: 3
+tags: []
+user_id: agnieszka

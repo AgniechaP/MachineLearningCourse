@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/812b2eac4aa34ce4adb27260e7d3a2a1/artifacts
+end_time: 1682258437319
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 812b2eac4aa34ce4adb27260e7d3a2a1
+run_name: dazzling-shrew-565
+run_uuid: 812b2eac4aa34ce4adb27260e7d3a2a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682258436049
+status: 3
+tags: []
+user_id: agnieszka

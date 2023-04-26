@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/56852b862ca9433499c37fc755bf4a59/artifacts
+end_time: 1682346747154
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 56852b862ca9433499c37fc755bf4a59
+run_name: wise-squirrel-787
+run_uuid: 56852b862ca9433499c37fc755bf4a59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682346723947
+status: 4
+tags: []
+user_id: agnieszka

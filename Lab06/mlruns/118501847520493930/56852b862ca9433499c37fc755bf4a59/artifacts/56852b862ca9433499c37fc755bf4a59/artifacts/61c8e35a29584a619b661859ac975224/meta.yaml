@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/61c8e35a29584a619b661859ac975224/artifacts
+end_time: 1682265494164
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 61c8e35a29584a619b661859ac975224
+run_name: wise-penguin-298
+run_uuid: 61c8e35a29584a619b661859ac975224
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682265490979
+status: 3
+tags: []
+user_id: agnieszka

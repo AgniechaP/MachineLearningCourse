@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/5a94e87e27ec4c94b159270e19cad326/artifacts
+end_time: 1682252777271
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 5a94e87e27ec4c94b159270e19cad326
+run_name: thundering-newt-836
+run_uuid: 5a94e87e27ec4c94b159270e19cad326
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682252777262
+status: 3
+tags: []
+user_id: agnieszka

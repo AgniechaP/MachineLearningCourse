@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/0e173929577249be8a9fd76f7cbf314d/artifacts
+end_time: 1682347112581
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 0e173929577249be8a9fd76f7cbf314d
+run_name: persistent-fish-531
+run_uuid: 0e173929577249be8a9fd76f7cbf314d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682347111565
+status: 3
+tags: []
+user_id: agnieszka

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/b682aee9624f439b8153545339b3fef3/artifacts
+end_time: 1682344573743
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: b682aee9624f439b8153545339b3fef3
+run_name: unequaled-snipe-291
+run_uuid: b682aee9624f439b8153545339b3fef3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682344571012
+status: 3
+tags: []
+user_id: agnieszka

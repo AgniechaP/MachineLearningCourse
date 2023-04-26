@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/c33e604c0f1f478bb370a28241cd76d5/artifacts
+end_time: 1682259313730
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: c33e604c0f1f478bb370a28241cd76d5
+run_name: hilarious-kite-195
+run_uuid: c33e604c0f1f478bb370a28241cd76d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682259311033
+status: 3
+tags: []
+user_id: agnieszka

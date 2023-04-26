@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/41e6fc8d052447d58554ef03939bcc62/artifacts
+end_time: 1682266918854
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 41e6fc8d052447d58554ef03939bcc62
+run_name: vaunted-lark-209
+run_uuid: 41e6fc8d052447d58554ef03939bcc62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682266916111
+status: 3
+tags: []
+user_id: agnieszka

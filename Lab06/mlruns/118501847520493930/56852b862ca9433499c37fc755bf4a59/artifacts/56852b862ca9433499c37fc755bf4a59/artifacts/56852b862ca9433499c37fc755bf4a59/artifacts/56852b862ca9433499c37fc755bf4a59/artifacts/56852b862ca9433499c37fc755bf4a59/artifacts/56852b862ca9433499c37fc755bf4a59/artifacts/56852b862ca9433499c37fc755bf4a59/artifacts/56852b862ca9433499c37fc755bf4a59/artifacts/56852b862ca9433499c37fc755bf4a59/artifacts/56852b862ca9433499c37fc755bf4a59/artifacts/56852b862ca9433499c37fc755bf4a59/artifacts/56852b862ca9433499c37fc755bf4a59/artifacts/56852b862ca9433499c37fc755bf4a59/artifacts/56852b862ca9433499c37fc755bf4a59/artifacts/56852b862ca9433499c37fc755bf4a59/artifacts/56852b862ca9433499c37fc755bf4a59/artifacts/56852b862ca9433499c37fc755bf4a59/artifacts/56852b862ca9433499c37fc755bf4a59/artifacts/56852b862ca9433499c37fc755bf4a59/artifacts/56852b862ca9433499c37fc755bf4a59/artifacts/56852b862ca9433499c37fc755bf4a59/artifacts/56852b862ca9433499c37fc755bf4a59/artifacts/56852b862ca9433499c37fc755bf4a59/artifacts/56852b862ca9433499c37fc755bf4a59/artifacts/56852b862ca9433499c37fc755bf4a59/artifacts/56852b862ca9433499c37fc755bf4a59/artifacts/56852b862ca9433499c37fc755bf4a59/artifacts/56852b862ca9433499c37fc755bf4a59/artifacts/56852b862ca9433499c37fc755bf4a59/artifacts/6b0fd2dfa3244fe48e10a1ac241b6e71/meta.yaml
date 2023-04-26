@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/6b0fd2dfa3244fe48e10a1ac241b6e71/artifacts
+end_time: 1682252760257
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 6b0fd2dfa3244fe48e10a1ac241b6e71
+run_name: sassy-crane-565
+run_uuid: 6b0fd2dfa3244fe48e10a1ac241b6e71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682252757517
+status: 3
+tags: []
+user_id: agnieszka

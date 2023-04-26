@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/a0430069e9b6467ca91ced0b87463e76/artifacts
+end_time: 1682258685583
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: a0430069e9b6467ca91ced0b87463e76
+run_name: silent-bug-645
+run_uuid: a0430069e9b6467ca91ced0b87463e76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682258682856
+status: 3
+tags: []
+user_id: agnieszka

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/604d6285b73040f59487bc15052b4370/artifacts
+end_time: 1682256144530
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 604d6285b73040f59487bc15052b4370
+run_name: useful-crow-814
+run_uuid: 604d6285b73040f59487bc15052b4370
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682256140838
+status: 3
+tags: []
+user_id: agnieszka

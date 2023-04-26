@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/cfd7cc3184494284aefc79343fb3b6fb/artifacts
+end_time: 1682265924794
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: cfd7cc3184494284aefc79343fb3b6fb
+run_name: placid-mole-312
+run_uuid: cfd7cc3184494284aefc79343fb3b6fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682265921911
+status: 3
+tags: []
+user_id: agnieszka

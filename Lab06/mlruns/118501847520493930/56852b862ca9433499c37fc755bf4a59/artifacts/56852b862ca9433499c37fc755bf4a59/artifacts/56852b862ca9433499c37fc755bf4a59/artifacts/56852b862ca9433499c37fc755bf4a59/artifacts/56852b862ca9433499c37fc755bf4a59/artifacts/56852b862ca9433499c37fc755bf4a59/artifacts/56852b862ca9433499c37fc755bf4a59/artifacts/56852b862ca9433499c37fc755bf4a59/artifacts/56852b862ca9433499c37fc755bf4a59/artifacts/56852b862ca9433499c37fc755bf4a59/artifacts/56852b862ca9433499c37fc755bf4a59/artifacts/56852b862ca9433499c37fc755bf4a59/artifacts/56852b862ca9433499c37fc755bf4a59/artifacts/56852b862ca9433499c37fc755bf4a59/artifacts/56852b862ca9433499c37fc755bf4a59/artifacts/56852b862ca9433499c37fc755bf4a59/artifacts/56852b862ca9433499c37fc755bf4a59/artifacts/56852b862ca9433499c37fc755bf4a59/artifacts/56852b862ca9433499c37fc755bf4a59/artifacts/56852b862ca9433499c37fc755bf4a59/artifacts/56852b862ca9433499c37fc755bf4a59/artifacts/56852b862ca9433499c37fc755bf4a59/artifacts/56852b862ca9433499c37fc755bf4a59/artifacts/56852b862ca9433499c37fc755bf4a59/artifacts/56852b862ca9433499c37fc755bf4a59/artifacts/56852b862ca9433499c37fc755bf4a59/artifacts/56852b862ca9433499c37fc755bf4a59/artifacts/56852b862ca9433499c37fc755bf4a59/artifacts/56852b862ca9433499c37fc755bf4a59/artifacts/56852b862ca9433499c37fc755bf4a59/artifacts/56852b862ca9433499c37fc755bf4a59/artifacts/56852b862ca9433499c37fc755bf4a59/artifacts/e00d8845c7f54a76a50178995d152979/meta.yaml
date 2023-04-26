@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/e00d8845c7f54a76a50178995d152979/artifacts
+end_time: 1682258644096
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: e00d8845c7f54a76a50178995d152979
+run_name: glamorous-sow-601
+run_uuid: e00d8845c7f54a76a50178995d152979
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682258642829
+status: 3
+tags: []
+user_id: agnieszka

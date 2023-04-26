@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/7258c705c1c74645a14da162fa71a82f/artifacts
+end_time: 1682262728901
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 7258c705c1c74645a14da162fa71a82f
+run_name: youthful-dove-460
+run_uuid: 7258c705c1c74645a14da162fa71a82f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682262726012
+status: 3
+tags: []
+user_id: agnieszka

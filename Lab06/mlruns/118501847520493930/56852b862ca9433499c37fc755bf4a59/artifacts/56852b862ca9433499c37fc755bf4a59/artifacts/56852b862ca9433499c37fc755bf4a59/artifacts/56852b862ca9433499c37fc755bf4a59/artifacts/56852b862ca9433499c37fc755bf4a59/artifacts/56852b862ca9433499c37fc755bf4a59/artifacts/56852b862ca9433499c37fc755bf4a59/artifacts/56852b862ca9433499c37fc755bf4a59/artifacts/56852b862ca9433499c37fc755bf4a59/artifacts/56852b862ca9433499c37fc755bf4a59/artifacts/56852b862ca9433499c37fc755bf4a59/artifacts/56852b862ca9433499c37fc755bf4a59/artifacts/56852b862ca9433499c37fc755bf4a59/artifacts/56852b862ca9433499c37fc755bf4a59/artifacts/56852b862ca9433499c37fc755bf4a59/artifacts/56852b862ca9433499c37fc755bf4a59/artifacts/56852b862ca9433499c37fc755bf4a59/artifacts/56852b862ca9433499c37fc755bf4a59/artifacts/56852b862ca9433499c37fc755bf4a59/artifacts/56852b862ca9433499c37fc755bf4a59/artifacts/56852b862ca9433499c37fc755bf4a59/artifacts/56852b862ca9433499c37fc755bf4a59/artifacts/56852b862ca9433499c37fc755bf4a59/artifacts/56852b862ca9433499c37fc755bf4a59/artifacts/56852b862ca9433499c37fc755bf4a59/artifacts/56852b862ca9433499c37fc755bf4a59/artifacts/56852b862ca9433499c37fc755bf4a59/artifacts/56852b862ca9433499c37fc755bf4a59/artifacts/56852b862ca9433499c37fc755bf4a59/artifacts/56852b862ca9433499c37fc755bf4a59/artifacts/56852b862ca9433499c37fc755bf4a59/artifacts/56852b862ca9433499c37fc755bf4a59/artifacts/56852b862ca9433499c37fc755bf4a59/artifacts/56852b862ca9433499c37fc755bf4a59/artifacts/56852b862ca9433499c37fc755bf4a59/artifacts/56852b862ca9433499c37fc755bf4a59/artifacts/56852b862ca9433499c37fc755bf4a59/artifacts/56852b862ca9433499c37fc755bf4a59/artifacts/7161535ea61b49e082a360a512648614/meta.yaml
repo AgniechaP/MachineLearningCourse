@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/7161535ea61b49e082a360a512648614/artifacts
+end_time: 1682252834583
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 7161535ea61b49e082a360a512648614
+run_name: agreeable-grub-357
+run_uuid: 7161535ea61b49e082a360a512648614
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682252831847
+status: 3
+tags: []
+user_id: agnieszka

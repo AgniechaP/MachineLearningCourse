@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/aa766fff0a394defa87df53c002c045a/artifacts
+end_time: 1682344448365
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: aa766fff0a394defa87df53c002c045a
+run_name: melodic-goat-62
+run_uuid: aa766fff0a394defa87df53c002c045a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682344447484
+status: 4
+tags: []
+user_id: agnieszka

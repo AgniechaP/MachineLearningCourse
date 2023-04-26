@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/a2f36fd9f8674b61a348af21d5a3afc4/artifacts
+end_time: 1682265427062
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: a2f36fd9f8674b61a348af21d5a3afc4
+run_name: fearless-tern-162
+run_uuid: a2f36fd9f8674b61a348af21d5a3afc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682265424317
+status: 3
+tags: []
+user_id: agnieszka

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/d9c5de9071924912b9f21e6dc12f71b9/artifacts
+end_time: 1682346868701
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: d9c5de9071924912b9f21e6dc12f71b9
+run_name: flawless-bird-69
+run_uuid: d9c5de9071924912b9f21e6dc12f71b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682346849728
+status: 4
+tags: []
+user_id: agnieszka

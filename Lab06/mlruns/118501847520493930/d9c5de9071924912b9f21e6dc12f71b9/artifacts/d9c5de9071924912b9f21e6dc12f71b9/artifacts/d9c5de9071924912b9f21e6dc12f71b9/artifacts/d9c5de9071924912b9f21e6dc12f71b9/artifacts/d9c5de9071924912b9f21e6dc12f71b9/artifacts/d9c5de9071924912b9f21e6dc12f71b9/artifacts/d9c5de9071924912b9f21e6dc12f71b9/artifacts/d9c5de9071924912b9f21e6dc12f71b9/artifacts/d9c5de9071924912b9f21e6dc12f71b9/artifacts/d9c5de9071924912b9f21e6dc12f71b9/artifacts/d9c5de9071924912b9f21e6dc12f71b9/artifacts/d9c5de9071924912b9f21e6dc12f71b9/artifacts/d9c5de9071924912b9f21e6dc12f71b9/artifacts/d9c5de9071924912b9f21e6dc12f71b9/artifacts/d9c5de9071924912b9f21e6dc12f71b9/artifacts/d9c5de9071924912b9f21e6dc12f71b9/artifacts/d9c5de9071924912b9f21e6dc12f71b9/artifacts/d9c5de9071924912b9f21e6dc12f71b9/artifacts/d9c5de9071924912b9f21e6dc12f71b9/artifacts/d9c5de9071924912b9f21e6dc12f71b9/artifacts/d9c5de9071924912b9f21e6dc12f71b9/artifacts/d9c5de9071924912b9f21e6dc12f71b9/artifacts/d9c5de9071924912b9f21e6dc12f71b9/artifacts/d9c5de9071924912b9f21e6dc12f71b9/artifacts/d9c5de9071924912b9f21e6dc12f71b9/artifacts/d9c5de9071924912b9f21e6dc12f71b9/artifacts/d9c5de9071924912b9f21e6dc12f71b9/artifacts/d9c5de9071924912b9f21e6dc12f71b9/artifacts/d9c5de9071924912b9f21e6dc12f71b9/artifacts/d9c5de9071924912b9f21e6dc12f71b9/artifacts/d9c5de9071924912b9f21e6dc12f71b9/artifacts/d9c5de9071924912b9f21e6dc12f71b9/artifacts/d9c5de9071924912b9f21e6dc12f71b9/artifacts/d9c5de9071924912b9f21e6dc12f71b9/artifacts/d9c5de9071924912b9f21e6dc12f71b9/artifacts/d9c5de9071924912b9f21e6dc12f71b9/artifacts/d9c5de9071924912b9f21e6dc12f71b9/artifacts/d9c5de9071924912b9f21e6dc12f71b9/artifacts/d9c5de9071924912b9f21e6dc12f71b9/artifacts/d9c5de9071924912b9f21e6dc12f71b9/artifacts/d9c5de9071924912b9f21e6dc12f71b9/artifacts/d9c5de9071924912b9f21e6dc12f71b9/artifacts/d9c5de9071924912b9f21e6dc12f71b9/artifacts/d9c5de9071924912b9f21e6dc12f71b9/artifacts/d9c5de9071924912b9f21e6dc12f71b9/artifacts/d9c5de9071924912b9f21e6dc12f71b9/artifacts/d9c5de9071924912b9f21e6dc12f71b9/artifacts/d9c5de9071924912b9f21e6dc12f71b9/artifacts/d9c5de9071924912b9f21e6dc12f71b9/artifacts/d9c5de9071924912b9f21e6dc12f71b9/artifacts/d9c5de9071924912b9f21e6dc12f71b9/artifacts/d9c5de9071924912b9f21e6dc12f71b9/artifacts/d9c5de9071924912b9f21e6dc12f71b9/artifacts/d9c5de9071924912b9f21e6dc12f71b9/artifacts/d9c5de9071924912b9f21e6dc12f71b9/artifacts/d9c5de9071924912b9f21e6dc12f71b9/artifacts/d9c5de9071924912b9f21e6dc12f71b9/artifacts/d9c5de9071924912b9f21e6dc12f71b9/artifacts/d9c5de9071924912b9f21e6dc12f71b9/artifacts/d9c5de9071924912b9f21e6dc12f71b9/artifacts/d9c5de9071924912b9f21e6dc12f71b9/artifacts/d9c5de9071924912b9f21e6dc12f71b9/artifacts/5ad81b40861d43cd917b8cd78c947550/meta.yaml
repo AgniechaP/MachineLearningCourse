@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/5ad81b40861d43cd917b8cd78c947550/artifacts
+end_time: 1682258434769
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 5ad81b40861d43cd917b8cd78c947550
+run_name: wise-loon-808
+run_uuid: 5ad81b40861d43cd917b8cd78c947550
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682258432051
+status: 3
+tags: []
+user_id: agnieszka

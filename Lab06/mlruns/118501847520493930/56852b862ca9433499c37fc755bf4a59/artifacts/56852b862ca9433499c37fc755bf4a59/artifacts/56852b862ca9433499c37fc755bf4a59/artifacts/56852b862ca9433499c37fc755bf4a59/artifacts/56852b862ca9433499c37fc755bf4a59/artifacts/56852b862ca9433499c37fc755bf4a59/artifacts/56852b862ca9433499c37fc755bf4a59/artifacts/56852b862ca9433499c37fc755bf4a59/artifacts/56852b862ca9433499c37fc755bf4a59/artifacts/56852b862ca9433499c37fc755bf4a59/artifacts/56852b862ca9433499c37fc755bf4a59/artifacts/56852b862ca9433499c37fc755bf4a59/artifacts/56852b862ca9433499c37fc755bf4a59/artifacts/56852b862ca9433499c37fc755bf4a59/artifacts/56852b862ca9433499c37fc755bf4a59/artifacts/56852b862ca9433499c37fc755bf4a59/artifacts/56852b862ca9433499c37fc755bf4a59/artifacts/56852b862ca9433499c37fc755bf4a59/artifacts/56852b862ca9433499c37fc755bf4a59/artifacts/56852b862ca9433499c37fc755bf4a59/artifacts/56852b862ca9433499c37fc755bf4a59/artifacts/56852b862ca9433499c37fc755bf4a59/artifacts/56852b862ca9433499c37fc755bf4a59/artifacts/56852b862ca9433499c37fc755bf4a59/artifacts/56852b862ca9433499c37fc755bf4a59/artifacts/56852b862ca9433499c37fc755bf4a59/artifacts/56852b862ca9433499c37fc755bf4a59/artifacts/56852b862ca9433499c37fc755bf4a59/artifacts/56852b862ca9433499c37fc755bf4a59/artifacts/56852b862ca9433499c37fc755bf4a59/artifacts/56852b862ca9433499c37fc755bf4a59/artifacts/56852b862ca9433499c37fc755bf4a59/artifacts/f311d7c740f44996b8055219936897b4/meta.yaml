@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/f311d7c740f44996b8055219936897b4/artifacts
+end_time: 1682345694400
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: f311d7c740f44996b8055219936897b4
+run_name: zealous-moose-29
+run_uuid: f311d7c740f44996b8055219936897b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682345693549
+status: 3
+tags: []
+user_id: agnieszka

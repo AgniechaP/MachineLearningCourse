@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/3a5e9146eae949a0a3428268627e9e76/artifacts
+end_time: 1682252760311
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 3a5e9146eae949a0a3428268627e9e76
+run_name: brawny-shrimp-182
+run_uuid: 3a5e9146eae949a0a3428268627e9e76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682252760301
+status: 3
+tags: []
+user_id: agnieszka

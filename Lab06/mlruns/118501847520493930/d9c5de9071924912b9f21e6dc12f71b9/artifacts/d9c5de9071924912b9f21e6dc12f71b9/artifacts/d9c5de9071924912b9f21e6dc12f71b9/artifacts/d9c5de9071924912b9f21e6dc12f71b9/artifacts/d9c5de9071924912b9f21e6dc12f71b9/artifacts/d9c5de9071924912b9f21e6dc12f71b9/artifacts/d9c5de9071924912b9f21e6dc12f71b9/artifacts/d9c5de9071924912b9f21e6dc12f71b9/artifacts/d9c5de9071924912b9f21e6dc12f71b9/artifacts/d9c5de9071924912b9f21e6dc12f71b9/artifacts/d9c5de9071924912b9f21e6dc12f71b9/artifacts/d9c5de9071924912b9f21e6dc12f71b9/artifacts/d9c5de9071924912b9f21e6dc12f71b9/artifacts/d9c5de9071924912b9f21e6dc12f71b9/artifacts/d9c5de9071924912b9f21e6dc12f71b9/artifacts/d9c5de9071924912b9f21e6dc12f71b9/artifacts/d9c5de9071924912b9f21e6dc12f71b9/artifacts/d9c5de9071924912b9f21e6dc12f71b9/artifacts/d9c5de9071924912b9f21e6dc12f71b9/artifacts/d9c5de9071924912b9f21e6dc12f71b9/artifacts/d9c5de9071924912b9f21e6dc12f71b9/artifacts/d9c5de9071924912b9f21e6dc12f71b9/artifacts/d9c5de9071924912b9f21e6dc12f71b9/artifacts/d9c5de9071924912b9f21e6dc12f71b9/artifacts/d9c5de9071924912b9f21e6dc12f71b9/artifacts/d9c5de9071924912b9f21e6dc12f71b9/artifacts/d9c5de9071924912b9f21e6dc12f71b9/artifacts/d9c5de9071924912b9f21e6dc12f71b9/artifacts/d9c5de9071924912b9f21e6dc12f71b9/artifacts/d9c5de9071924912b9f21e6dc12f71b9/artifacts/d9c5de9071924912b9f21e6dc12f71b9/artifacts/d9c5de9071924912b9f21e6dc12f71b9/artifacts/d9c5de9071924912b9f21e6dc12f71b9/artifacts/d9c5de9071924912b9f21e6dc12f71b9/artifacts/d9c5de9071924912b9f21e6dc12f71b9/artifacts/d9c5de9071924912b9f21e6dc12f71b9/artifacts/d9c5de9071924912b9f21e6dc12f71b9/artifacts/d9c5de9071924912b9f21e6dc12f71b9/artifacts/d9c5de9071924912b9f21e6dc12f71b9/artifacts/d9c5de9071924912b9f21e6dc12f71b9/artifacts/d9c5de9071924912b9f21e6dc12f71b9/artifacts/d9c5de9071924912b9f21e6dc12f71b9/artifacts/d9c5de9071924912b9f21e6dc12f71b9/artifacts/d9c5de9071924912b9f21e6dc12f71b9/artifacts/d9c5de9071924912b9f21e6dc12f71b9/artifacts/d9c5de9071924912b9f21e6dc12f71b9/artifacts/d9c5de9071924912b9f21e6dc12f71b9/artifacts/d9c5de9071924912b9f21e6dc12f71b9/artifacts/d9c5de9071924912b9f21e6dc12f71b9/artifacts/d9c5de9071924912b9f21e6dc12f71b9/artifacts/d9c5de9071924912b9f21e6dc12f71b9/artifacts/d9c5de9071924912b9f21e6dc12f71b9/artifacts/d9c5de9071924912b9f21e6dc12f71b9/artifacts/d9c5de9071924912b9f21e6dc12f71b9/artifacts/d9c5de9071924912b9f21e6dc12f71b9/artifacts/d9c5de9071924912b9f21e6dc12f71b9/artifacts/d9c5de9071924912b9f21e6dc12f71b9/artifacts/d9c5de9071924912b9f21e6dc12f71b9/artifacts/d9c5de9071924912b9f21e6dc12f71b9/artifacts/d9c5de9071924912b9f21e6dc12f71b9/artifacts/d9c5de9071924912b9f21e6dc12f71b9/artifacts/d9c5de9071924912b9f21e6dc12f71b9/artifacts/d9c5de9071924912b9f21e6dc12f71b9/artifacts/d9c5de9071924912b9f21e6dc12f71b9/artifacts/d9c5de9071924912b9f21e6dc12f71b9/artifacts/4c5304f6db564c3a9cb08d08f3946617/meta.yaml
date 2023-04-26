@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/4c5304f6db564c3a9cb08d08f3946617/artifacts
+end_time: 1682267376987
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 4c5304f6db564c3a9cb08d08f3946617
+run_name: intrigued-slug-95
+run_uuid: 4c5304f6db564c3a9cb08d08f3946617
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682267374232
+status: 3
+tags: []
+user_id: agnieszka

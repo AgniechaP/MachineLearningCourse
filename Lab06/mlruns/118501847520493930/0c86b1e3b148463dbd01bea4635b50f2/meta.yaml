@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/0c86b1e3b148463dbd01bea4635b50f2/artifacts
+end_time: 1682345072044
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 0c86b1e3b148463dbd01bea4635b50f2
+run_name: entertaining-carp-39
+run_uuid: 0c86b1e3b148463dbd01bea4635b50f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682345071184
+status: 3
+tags: []
+user_id: agnieszka

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/f2487d8cf97f4863984ab7bf88f978d3/artifacts
+end_time: 1682345809404
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: f2487d8cf97f4863984ab7bf88f978d3
+run_name: overjoyed-slug-386
+run_uuid: f2487d8cf97f4863984ab7bf88f978d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682345808552
+status: 3
+tags: []
+user_id: agnieszka

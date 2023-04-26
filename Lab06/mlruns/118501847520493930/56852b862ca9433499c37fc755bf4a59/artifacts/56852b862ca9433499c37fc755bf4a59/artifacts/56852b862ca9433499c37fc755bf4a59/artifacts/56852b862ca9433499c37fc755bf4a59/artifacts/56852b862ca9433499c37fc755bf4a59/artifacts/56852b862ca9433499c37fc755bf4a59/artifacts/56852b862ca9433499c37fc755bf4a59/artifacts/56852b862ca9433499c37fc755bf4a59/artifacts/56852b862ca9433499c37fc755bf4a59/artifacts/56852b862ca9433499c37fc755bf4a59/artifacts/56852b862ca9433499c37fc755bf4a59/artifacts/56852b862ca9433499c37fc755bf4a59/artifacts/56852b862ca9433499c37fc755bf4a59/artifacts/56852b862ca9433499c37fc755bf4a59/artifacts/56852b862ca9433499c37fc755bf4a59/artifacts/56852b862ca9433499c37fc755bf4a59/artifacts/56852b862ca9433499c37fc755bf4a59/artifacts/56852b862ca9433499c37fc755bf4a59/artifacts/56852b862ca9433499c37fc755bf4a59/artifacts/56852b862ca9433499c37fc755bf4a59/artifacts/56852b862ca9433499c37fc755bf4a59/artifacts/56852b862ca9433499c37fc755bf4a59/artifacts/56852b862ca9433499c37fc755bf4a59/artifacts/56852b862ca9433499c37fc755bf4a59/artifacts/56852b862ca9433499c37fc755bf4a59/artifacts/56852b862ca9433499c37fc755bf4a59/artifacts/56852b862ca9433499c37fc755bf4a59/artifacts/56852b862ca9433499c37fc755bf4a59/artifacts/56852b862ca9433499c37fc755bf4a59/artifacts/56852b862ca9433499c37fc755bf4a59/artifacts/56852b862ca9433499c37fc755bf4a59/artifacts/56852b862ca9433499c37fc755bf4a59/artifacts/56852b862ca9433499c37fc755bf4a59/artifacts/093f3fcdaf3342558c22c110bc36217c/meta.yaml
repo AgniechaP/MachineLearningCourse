@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/093f3fcdaf3342558c22c110bc36217c/artifacts
+end_time: 1682258183775
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 093f3fcdaf3342558c22c110bc36217c
+run_name: resilient-cat-924
+run_uuid: 093f3fcdaf3342558c22c110bc36217c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682258181025
+status: 3
+tags: []
+user_id: agnieszka

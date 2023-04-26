@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/6676962389a14f95bae16de1d12d6c51/artifacts
+end_time: 1682257909746
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 6676962389a14f95bae16de1d12d6c51
+run_name: traveling-lynx-597
+run_uuid: 6676962389a14f95bae16de1d12d6c51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682257907060
+status: 3
+tags: []
+user_id: agnieszka

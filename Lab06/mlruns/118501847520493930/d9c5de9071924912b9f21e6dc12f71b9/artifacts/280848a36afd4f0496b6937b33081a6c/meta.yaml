@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/280848a36afd4f0496b6937b33081a6c/artifacts
+end_time: 1682344791999
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 280848a36afd4f0496b6937b33081a6c
+run_name: exultant-vole-86
+run_uuid: 280848a36afd4f0496b6937b33081a6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682344791151
+status: 3
+tags: []
+user_id: agnieszka

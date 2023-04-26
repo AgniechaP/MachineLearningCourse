@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/26aa2d0a17ba406c9f6d562c2fc968fa/artifacts
+end_time: 1682265904906
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 26aa2d0a17ba406c9f6d562c2fc968fa
+run_name: fearless-hen-839
+run_uuid: 26aa2d0a17ba406c9f6d562c2fc968fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682265902090
+status: 3
+tags: []
+user_id: agnieszka

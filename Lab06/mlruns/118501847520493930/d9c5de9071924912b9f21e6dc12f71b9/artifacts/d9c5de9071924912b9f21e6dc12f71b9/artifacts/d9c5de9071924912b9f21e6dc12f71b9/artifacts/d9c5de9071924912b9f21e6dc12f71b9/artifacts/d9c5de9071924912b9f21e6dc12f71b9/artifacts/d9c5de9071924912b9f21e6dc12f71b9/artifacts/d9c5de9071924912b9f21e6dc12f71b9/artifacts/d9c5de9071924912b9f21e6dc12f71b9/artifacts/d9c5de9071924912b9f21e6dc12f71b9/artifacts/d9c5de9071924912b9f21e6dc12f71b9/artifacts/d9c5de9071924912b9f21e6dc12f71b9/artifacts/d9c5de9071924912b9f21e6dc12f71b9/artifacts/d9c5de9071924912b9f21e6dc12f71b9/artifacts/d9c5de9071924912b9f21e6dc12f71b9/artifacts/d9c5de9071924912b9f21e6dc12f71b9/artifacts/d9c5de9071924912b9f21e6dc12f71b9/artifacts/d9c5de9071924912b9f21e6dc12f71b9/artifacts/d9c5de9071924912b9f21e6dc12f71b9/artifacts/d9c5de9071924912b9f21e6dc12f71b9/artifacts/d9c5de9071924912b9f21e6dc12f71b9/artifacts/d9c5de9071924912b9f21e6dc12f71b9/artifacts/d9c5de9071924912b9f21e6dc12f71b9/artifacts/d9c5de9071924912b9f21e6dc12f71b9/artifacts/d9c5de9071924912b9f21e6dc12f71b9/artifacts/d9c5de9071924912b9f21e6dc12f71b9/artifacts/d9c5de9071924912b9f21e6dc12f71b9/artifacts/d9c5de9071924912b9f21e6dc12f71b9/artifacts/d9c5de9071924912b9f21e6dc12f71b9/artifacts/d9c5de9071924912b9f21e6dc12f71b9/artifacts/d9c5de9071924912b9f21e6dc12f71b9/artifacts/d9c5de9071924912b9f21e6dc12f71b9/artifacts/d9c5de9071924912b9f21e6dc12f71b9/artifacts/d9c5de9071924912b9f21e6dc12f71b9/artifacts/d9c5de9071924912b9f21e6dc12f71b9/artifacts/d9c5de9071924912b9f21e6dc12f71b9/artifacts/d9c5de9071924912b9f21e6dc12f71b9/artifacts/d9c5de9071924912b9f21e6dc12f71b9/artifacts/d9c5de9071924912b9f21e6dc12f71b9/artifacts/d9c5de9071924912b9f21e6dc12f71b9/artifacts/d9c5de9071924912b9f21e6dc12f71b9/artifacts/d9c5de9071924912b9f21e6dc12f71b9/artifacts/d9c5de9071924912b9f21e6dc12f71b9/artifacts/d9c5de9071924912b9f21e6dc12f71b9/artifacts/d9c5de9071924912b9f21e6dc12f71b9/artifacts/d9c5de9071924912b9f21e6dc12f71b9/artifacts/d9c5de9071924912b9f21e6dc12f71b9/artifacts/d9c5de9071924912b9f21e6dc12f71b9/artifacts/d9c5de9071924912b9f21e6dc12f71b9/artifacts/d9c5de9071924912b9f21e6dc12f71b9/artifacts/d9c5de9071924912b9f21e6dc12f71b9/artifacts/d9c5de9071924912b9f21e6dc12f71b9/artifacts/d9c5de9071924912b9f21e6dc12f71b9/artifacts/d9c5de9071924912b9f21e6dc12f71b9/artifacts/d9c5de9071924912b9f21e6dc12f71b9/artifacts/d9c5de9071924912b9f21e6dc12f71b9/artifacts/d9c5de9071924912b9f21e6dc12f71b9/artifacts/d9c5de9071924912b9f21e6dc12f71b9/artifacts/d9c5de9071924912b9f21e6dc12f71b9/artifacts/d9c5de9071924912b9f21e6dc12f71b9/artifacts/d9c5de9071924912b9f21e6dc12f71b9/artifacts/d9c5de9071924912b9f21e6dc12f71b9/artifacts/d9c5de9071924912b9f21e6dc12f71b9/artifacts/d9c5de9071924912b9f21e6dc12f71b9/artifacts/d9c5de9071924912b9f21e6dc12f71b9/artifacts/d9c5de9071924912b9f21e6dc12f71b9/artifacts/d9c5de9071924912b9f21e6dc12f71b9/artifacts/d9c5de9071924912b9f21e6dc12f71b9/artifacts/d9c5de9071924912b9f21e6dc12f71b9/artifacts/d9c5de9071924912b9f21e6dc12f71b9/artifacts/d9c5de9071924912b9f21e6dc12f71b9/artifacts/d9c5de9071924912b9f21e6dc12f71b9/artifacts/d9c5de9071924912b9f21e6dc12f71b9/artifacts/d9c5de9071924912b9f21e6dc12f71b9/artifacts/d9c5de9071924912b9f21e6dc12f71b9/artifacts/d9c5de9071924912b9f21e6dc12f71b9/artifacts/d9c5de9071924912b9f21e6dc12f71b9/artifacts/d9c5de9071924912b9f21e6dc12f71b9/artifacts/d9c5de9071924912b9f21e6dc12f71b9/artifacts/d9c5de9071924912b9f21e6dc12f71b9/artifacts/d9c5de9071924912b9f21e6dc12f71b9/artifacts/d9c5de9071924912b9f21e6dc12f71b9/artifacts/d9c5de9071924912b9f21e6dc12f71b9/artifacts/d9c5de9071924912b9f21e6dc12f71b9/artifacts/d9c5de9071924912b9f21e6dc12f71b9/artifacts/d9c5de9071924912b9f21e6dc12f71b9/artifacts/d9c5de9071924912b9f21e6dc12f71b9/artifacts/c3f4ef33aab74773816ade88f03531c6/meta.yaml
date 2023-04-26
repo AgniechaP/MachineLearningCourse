@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/c3f4ef33aab74773816ade88f03531c6/artifacts
+end_time: 1682265447151
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: c3f4ef33aab74773816ade88f03531c6
+run_name: defiant-moose-169
+run_uuid: c3f4ef33aab74773816ade88f03531c6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682265444396
+status: 3
+tags: []
+user_id: agnieszka

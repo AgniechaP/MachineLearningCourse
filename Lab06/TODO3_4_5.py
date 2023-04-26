@@ -8,6 +8,7 @@ from mlflow.tracking import MlflowClient
 from sklearn.metrics import accuracy_score, mean_squared_error
 import random
 import os
+import pickle
 
 def print_auto_logged_info(r):
     tags = {k: v for k, v in r.data.tags.items() if not k.startswith("mlflow.")}
@@ -19,7 +20,8 @@ def print_auto_logged_info(r):
     print("tags: {}".format(tags))
 
 # Enable autologging
-mlflow.sklearn.autolog()
+# Default log_models = True - zapisywanie wytrenowanego modelu jako artefakt. Gdy log_models = False, można ręcznie za pomocą log_artifact zapisywac wytrenowany model
+mlflow.sklearn.autolog(log_models=False)
 
 # Load data
 digits = datasets.load_digits()
@@ -49,6 +51,11 @@ with mlflow.start_run(experiment_id=experiment.experiment_id) as run:
     weather_list = ['Sunny', 'Rainy', 'Windy']
     mlflow.log_param('Weather', random.choice(weather_list))
 
+    # 4. Save trained model as artifact - exactly save all files in save_trained_model
+    # To print in console we should change printing artifacts in print_auto_logged_info - not in filepath 'model'
+    mlflow.log_artifacts("save_trained_model")
+
+
 run_id = mlflow.last_active_run().info.run_id
 
 # Co zostało zapisane w wyniku eksperymentu?
@@ -62,16 +69,31 @@ if os.path.exists(dir):
 os.makedirs(dir)
 mlflow.sklearn.save_model(sk_model=svc, path=dir)
 
-# TODO 4. Zapisz model jako artefakt - log model? log_artifact? Save model zapisuje tylko lokalnie?
-# filename = 'model.pkl'
-# with open(filename, 'wb') as f:
-#   pickle.dump(svc, f)
-# mlflow.log_artifact(filename)
-
-
 # 5. Print all experiments
 experiments = mlflow.search_experiments()
 for exp in experiments:
     print(exp.name, exp.experiment_id)
+    print('Artifact location: ', exp.artifact_location)
 
-# TODO 5. 6. 7. 8. 
+
+# TODO 6. 7. 8.
+
+# 5. Wykorzystaj UI do przeglądania wykonanych eksperymentów. Znajdź te, które zakończyły się sukcesem, a wartość wyniku jest wyższa niż dobrany próg
+
+# print runs in experiment Default
+# runs = mlflow.search_runs(experiment_names=["Default"])
+# print(runs)
+
+from mlflow.entities import ViewType
+run = MlflowClient().search_runs(
+    experiment_ids="118501847520493930",
+    filter_string="",
+    run_view_type=ViewType.ACTIVE_ONLY,
+    max_results=1,
+    order_by=["metrics.MSE DESC"],
+)[0]
+
+print('Id of run with best MSE: ', run.info.run_id)
+
+# 6.
+

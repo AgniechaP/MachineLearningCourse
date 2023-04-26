@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/9077f3cfe5b5446985740c9b89382650/artifacts
+end_time: 1682259288651
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 9077f3cfe5b5446985740c9b89382650
+run_name: vaunted-newt-676
+run_uuid: 9077f3cfe5b5446985740c9b89382650
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682259285965
+status: 3
+tags: []
+user_id: agnieszka

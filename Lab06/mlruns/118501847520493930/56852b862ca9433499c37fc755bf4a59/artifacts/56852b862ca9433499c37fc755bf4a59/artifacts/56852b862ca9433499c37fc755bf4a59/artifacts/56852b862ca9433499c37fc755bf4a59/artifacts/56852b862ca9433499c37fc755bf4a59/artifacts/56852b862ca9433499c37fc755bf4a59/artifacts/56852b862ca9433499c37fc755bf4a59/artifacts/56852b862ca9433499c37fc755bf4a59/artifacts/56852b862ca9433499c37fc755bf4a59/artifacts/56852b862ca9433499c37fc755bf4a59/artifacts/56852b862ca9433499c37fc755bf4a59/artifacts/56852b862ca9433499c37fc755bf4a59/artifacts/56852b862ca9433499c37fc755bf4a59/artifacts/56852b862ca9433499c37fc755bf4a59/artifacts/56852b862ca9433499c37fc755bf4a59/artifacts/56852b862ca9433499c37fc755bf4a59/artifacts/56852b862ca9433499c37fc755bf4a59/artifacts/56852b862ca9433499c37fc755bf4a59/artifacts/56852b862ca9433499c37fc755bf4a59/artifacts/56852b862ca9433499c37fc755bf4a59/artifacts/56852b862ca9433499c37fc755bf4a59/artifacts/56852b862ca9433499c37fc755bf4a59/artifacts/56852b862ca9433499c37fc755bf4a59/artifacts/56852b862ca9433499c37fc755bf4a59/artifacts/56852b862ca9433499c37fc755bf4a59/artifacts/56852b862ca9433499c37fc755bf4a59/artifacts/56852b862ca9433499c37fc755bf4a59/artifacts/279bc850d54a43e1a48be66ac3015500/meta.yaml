@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/279bc850d54a43e1a48be66ac3015500/artifacts
+end_time: 1682344586811
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 279bc850d54a43e1a48be66ac3015500
+run_name: enchanting-snake-731
+run_uuid: 279bc850d54a43e1a48be66ac3015500
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682344584027
+status: 3
+tags: []
+user_id: agnieszka

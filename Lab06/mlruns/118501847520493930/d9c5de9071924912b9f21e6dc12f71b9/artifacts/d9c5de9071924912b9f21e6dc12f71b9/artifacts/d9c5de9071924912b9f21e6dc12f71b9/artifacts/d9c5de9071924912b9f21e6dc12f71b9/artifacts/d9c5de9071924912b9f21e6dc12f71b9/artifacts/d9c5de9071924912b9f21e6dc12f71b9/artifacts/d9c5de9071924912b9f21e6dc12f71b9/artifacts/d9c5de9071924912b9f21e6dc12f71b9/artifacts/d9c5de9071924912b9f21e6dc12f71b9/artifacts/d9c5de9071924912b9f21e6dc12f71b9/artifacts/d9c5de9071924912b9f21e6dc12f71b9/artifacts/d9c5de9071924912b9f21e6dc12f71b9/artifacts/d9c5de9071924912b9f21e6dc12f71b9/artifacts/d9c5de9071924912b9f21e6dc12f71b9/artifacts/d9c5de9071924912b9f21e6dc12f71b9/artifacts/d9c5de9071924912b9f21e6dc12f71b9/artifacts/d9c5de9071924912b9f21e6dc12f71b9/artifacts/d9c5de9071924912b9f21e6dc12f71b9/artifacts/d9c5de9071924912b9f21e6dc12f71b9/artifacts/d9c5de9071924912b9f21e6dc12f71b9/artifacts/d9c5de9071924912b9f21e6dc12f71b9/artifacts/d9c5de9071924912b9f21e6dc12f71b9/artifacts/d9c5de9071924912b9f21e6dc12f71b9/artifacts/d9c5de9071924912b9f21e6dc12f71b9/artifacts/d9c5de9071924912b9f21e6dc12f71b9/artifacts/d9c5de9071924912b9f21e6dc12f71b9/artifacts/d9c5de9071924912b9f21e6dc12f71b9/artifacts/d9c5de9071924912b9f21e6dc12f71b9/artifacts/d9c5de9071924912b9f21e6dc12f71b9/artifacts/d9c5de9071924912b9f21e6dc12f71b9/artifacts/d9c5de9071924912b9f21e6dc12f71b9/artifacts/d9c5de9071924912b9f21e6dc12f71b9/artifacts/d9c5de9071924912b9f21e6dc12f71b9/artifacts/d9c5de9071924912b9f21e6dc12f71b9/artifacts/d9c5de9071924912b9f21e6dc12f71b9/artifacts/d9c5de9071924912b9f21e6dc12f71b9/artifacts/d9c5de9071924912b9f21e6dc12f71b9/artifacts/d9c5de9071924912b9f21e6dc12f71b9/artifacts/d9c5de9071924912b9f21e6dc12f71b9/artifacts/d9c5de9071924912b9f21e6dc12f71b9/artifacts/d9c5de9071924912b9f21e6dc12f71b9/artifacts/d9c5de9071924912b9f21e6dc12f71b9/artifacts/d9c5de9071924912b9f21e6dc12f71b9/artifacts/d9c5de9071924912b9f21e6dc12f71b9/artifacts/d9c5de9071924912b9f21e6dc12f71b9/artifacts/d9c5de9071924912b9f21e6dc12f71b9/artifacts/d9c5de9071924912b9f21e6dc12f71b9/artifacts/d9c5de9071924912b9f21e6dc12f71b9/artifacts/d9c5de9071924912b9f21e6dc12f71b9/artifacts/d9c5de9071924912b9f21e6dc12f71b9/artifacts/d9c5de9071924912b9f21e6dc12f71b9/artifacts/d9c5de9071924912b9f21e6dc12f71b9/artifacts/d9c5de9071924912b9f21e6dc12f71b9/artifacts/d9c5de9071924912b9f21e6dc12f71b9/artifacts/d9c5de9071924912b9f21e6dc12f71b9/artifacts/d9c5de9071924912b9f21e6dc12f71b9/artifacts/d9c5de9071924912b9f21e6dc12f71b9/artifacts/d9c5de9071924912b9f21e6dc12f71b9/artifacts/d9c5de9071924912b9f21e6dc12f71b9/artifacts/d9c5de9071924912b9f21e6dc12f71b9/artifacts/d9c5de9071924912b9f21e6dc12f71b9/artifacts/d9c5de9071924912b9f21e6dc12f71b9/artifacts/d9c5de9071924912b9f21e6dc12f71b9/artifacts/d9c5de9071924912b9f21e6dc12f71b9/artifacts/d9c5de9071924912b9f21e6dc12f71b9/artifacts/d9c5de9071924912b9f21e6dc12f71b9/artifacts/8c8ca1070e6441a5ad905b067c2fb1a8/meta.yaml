@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/8c8ca1070e6441a5ad905b067c2fb1a8/artifacts
+end_time: 1682266294580
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 8c8ca1070e6441a5ad905b067c2fb1a8
+run_name: respected-croc-110
+run_uuid: 8c8ca1070e6441a5ad905b067c2fb1a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682266291837
+status: 3
+tags: []
+user_id: agnieszka

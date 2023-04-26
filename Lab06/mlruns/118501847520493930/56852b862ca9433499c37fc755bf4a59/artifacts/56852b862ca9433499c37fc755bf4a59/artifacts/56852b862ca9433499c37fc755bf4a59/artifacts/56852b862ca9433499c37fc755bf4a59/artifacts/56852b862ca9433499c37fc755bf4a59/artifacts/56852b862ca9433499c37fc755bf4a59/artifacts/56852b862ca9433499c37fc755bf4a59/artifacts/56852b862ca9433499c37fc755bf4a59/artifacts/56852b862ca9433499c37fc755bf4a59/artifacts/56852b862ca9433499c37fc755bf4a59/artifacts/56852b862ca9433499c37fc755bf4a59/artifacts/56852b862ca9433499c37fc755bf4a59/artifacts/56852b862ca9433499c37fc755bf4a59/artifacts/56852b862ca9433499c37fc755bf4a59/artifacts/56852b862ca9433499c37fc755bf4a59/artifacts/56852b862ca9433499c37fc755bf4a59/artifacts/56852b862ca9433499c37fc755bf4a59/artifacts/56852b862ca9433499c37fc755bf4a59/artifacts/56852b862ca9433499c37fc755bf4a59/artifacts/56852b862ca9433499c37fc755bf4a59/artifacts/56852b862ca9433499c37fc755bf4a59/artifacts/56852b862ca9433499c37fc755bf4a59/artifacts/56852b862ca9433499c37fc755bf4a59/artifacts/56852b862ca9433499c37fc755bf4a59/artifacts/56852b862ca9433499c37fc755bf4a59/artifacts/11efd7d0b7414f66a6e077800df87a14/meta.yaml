@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/11efd7d0b7414f66a6e077800df87a14/artifacts
+end_time: 1682252777218
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 11efd7d0b7414f66a6e077800df87a14
+run_name: blushing-bee-552
+run_uuid: 11efd7d0b7414f66a6e077800df87a14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682252774543
+status: 3
+tags: []
+user_id: agnieszka

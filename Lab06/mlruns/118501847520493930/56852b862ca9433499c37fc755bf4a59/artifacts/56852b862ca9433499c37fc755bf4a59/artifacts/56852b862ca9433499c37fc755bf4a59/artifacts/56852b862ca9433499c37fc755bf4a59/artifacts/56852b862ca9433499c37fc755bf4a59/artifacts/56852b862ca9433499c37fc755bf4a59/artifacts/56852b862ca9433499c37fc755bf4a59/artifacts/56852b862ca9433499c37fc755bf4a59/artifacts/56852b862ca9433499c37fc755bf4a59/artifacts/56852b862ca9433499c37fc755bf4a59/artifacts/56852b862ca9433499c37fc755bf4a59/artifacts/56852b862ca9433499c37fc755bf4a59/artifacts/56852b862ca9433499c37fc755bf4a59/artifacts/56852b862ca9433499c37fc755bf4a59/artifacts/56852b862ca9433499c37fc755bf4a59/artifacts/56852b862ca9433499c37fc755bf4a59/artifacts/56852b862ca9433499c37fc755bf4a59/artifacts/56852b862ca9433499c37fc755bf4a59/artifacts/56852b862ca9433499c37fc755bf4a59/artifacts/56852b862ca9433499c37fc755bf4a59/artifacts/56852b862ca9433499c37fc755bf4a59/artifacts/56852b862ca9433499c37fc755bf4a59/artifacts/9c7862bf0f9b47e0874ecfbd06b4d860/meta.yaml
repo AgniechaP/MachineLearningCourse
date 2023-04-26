@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/9c7862bf0f9b47e0874ecfbd06b4d860/artifacts
+end_time: 1682345541921
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 9c7862bf0f9b47e0874ecfbd06b4d860
+run_name: spiffy-kite-846
+run_uuid: 9c7862bf0f9b47e0874ecfbd06b4d860
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682345541050
+status: 3
+tags: []
+user_id: agnieszka

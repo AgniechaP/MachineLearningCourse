@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/deec59663dc64508a8861ad49c557bf9/artifacts
+end_time: 1682347025995
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: deec59663dc64508a8861ad49c557bf9
+run_name: adventurous-bear-268
+run_uuid: deec59663dc64508a8861ad49c557bf9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682347025077
+status: 3
+tags: []
+user_id: agnieszka

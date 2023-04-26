@@ -1,0 +1,15 @@
+artifact_uri: file:///home/agnieszka/PycharmProjects/MachineLearningCourse/Lab06/mlruns/118501847520493930/26348c75eea043299d35d539d3850ee1/artifacts
+end_time: 1682344140532
+entry_point_name: ''
+experiment_id: '118501847520493930'
+lifecycle_stage: active
+run_id: 26348c75eea043299d35d539d3850ee1
+run_name: grandiose-flea-815
+run_uuid: 26348c75eea043299d35d539d3850ee1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682344137723
+status: 3
+tags: []
+user_id: agnieszka
